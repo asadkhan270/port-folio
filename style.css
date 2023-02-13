@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+
+#navbar {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: aliceblue;
+}
+
+nav {
+    display: flex;
+    width: auto;
+    margin: auto;
+    padding: 20px 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    font-size: large;
+}
+
+#img {
+    width: 150px; 
+    height: 100px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: blue;
+}
+#heading{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+#heading h1{
+    font-size: 50px;
+    color: black;
+    margin-bottom: 20px;
+}
+span{
+    color: blue;
+}
+#heading p{
+    color: darkgray;
+    line-height: 22px;
+}
+
+#heading a{
+    background-color: black;
+    padding: 10px  ;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin: 30px 0px 0px 80px;
+    border-radius: 5px;
+}
+#heading a:hover{
+    color: blue;
+}
+
+.image{
+    width: 50%;
+    height: 75%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.image img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+
+.image:hover .shape{
+    bottom: 40px;
+}
+.image:hover .khan{
+   left: 45%;
+}
+
